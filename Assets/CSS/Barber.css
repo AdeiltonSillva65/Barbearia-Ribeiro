@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    border: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color:#2c2c2c;
+    height: 95px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;   
+}
+.menu, .conj_mae{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.menus, .conjunto{
+    display: flex;
+    width: auto; 
+}
+.conjunto{
+    align-items: center;
+}
+nav ul li, .conjunto li{
+    list-style: none; 
+    margin: 10px;
+}
+nav ul li a  {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*Falta por o hover*/
+
+.conjunto li a {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+}
+a img{
+    width: 25px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    background-color: #DA7100;
+    border-radius: 20px;
+    width: 190px;
+    height: 50px;
+}
+.button a {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+}
+.button a img{
+    width: 40px;
+    padding-right: 15px;
+    margin: 5px;
+}
+.button a p{
+    font-size: 18px;
+} 
+/*falta o hover*/
+.banner{
+    height: 700px; background-color: blue;
+    background-image: url(../Images/barbeiro.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
