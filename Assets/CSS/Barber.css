@@ -138,12 +138,32 @@ a img{
     width: 900px;
     align-items: center;
 }
-
 .icone img{
     width: 110px;
     height: 110px;
 }
 .ico p {
+    color: #7F7F7F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*terminado*/
+.bar {
+    margin-top: 30px;
+    width: 700px;
+    height: 2px; 
+    background-color:rgb(38, 4, 4); 
+    border-radius: 30px;
+  }
+  
+.section_price{
+    width: 750px;
+    margin-top: 50px;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     color: #7F7F7F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
