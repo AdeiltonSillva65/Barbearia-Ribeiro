@@ -411,7 +411,8 @@ form #button{
     border-radius: 30px;
     height: 30px;
     font-size: 17px;
-    color: #DA7100;margin: 5px;
+    color: #DA7100;
+    margin: 5px;
     outline: 0;
 }
 .espaco{
@@ -426,6 +427,7 @@ form #button{
 /*termino do maps*/
 
 .espaco_2 {
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -456,6 +458,19 @@ form #button{
     height: 400px;
 }
 .feedback h1{
+    padding-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
 }
+/*fim input*/
+#direitos{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+#direitos a {
+    text-decoration: none;
+    color: white;    
+}
+
+/*RESPONSIVIDADE*/
