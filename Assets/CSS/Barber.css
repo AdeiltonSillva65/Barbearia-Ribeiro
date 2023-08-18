@@ -278,6 +278,7 @@ a img{
     font-size: 50px;
     font-weight: bold;
     color: #DA7100;
+    cursor: pointer;
 }
 .galera .coment{
     width: 600px;   
