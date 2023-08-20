@@ -38,7 +38,9 @@ nav ul li a  {
     text-transform: uppercase;
 }
 /*Falta por o hover*/
-
+nav ul li a:hover{
+    border-bottom: solid 2px white;
+}
 .conjunto li a {
     text-decoration: none; 
     color: white;
